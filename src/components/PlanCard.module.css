@@ -1,0 +1,35 @@
+.card {
+  padding: 22px;
+  border: 1px solid var(--normal);
+  border-radius: var(--card);
+  background: white;
+  display: flex;
+  flex-direction: column;
+}
+.medium {
+  border-color: var(--flexible);
+}
+.high {
+  border-color: var(--urgent);
+}
+.low {
+  border-color: var(--normal);
+}
+.card h3 {
+  font-size: 24px;
+  margin: 20px 0;
+}
+.card dl {
+  flex: 1;
+  margin: 0 0 20px;
+}
+.card dt {
+  padding-top: 14px;
+  border-top: 1px solid var(--border);
+  color: var(--muted);
+  font-size: 13px;
+}
+.card dd {
+  margin: 6px 0 14px;
+  line-height: 1.7;
+}
